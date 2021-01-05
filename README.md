@@ -1,1 +1,3 @@
 # SendAnEmail
+
+In my ever expanding mission to learn more with python i decided to give emails a shot. i had done it once a few years ago but that old code didnt end up working. i use twilio for sending texts and while logging in i saw an ad about their email service SendGrid, i decided to give it a shot. with youtube tutorials and a walthrough process along with a few modifications of their original code i got it to work. once that happened i added a few variables, asked for input, used my own environmental variables and have my own twist on SendGrids python email code. i plan on altering it further but whats here will work for now.
