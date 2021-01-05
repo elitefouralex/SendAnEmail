@@ -1,4 +1,4 @@
-
+#python3 only
 import os
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
@@ -20,4 +20,5 @@ try:
     print(response.headers)
     print("\nEmail Sent")
 except Exception as e:
-    print(e)
+	print(f"{e}, Unable to send.\nEnsure you input the variables correctly and try again.")
+	#IDE always states SyntaxError: invalid syntax when using F strings. works regardless
